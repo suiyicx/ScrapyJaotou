@@ -10,7 +10,7 @@ ScrapyJaotou
    $scrapy crawl cityspider #提取指定分类链接并保存到redis数据库
    $scrapy crawl schoolspider #爬取机构信息并保存课程链接到redis数据库
    $scrapy crawl coursespider #爬取课程信息
-   #保存数据到mysql
+   #保存数据到mysql数据库
    $cd d:/ScrapyJaotou/mysql #进入mysql目录
    $ python save.py #运行save.py执行保存操作
    
