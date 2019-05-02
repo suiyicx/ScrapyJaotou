@@ -5,13 +5,13 @@ ScrapyJaotou
 使用方法：
    #配置好redis和mysql数据库
    #进入jiaotou目录
-   $cd d:/ScrapyJaotou/jiaotou
+   $cd d:/jiaotou/jiaotou
    #抓取数据
    $scrapy crawl cityspider #提取指定分类链接并保存到redis数据库
    $scrapy crawl schoolspider #爬取机构信息并保存课程链接到redis数据库
    $scrapy crawl coursespider #爬取课程信息
    #保存数据到mysql数据库
-   $cd d:/ScrapyJaotou/mysql #进入mysql目录
+   $cd d:/jiaotou/mysql #进入mysql目录
    $ python save.py #运行save.py执行保存操作
    
 
